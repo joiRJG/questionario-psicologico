@@ -1,4 +1,4 @@
-﻿/* Estilo para o corpo do documento */
+/* Estilo para o corpo do documento */
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
@@ -20,7 +20,7 @@ body {
 /* Estilo para o título do questionário */
 h1 {
     text-align: center;
-    color: #007bff; /* Azul */
+    color: #ffa500; /* Laranja */
 }
 
 /* Estilo para as perguntas */
@@ -31,7 +31,7 @@ h1 {
 /* Estilo para os rótulos das perguntas */
 .pergunta label {
     font-weight: bold;
-    color: #28a745; /* Verde */
+    color: #008000; /* Verde */
 }
 
 /* Estilo para as opções de resposta */
@@ -45,9 +45,9 @@ button {
     width: 100%;
     padding: 10px;
     margin-top: 20px;
-    background-color: #ffc107; /* Amarelo */
-    color: #fff;
-    border: none;
+    background-color: #ffffff; /* Branco */
+    color: #ffa500; /* Laranja */
+    border: 1px solid #008000; /* Verde */
     border-radius: 5px;
     cursor: pointer;
 }
