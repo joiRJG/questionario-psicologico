@@ -1,54 +1,62 @@
+/* Estilo para o corpo do documento */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
+    background-color: #f0f0f0;
     color: #333;
     margin: 0;
     padding: 0;
 }
 
+/* Estilo para o container do questionário */
 .container {
-    width: 50%;
-    margin: 50px auto;
+    max-width: 800px;
+    margin: 20px auto;
     padding: 20px;
     background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Estilo para o título do questionário */
 h1 {
     text-align: center;
-    color: #4CAF50;
+    color: #007bff; /* Azul */
 }
 
+/* Estilo para as perguntas */
 .pergunta {
     margin-bottom: 20px;
 }
 
-.opcao {
-    margin: 10px 0;
+/* Estilo para os rótulos das perguntas */
+.pergunta label {
+    font-weight: bold;
+    color: #28a745; /* Verde */
 }
 
+/* Estilo para as opções de resposta */
+.opcao {
+    margin-top: 10px;
+}
+
+/* Estilo para os botões */
 button {
     display: block;
     width: 100%;
     padding: 10px;
-    background-color: #4CAF50;
+    margin-top: 20px;
+    background-color: #ffc107; /* Amarelo */
     color: #fff;
     border: none;
-    border-radius: 4px;
-    font-size: 16px;
+    border-radius: 5px;
     cursor: pointer;
 }
 
-button:hover {
-    background-color: #45a049;
-}
-
+/* Estilo para o resultado */
 #resultado {
     margin-top: 20px;
     padding: 10px;
-    background-color: #e7f3e7;
-    border: 1px solid #4CAF50;
-    border-radius: 4px;
-    display: none;
+    border: 1px solid #007bff; /* Azul */
+    border-radius: 5px;
+    color: #007bff; /* Azul */
 }
